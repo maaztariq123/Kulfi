@@ -1,4 +1,14 @@
-   int P, T;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+        int P, T;
             float R, SI;
             Console.Write("Enter Amount :");
             P = Convert.ToInt32(Console.ReadLine());
@@ -10,4 +20,7 @@
             Console.WriteLine("Interest is :{0}", SI);
             Console.ReadKey();
  
-            Console.ReadLine()
+            Console.ReadLine()  
+    }
+  }
+}
